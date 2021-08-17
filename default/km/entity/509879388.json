@@ -1,0 +1,20 @@
+{
+  "$id": "509879388",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_height": "720",
+    "c_likes": "0",
+    "c_releaseDate": "2021-02-08",
+    "c_videoURL": "https://vimeo.com/509879388",
+    "c_vimeo": "player.vimeo.com/video/509879388",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1280",
+    "yext/name": "[Masterclass] Yext - HUBDAY Retail \u0026 E-commerce"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

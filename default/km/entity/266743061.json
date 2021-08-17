@@ -1,0 +1,20 @@
+{
+  "$id": "266743061",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_height": "1440",
+    "c_likes": "0",
+    "c_releaseDate": "2018-04-26",
+    "c_videoURL": "https://vimeo.com/266743061",
+    "c_vimeo": "player.vimeo.com/video/266743061",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "2560",
+    "yext/name": "Warum sollte ein Vertriebspartner das Thema Brand Verified Answers in seinem Produktportfolio haben?"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

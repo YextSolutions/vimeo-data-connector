@@ -1,0 +1,20 @@
+{
+  "$id": "271885449",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "unrated",
+    "c_creator": "Yext",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2018-05-25",
+    "c_videoURL": "https://vimeo.com/271885449",
+    "c_vimeo": "player.vimeo.com/video/271885449",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1920",
+    "yext/name": "Yext + TripAdvisor (Japanese subtitles)"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

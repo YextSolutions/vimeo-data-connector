@@ -1,0 +1,20 @@
+{
+  "$id": "430434301",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_height": "1620",
+    "c_likes": "0",
+    "c_releaseDate": "2020-06-18",
+    "c_videoURL": "https://vimeo.com/430434301",
+    "c_vimeo": "player.vimeo.com/video/430434301",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1440",
+    "yext/name": "OMR Digital Masterclass Wendi Sturgis - Wrong answers about your brand are never acceptable"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

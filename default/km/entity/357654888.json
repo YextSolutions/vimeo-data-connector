@@ -1,0 +1,20 @@
+{
+  "$id": "357654888",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2019-09-03",
+    "c_videoURL": "https://vimeo.com/357654888",
+    "c_vimeo": "player.vimeo.com/video/357654888",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "2560",
+    "yext/name": "Why Yext? | Commercial Business Unit"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}
