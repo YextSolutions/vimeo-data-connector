@@ -1,0 +1,30 @@
+{
+  "$id": "7766094542498880585",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "yext/address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Ave",
+      "line2": "5th Floor",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext/addressHidden": false,
+    "yext/categoryIds": [
+      "668"
+    ],
+    "yext/description": "Yext is the global digital knowledge management leader, and our Knowledge Engine puts businesses in control of their digital knowledge.",
+    "yext/localPhone": "+12128136543",
+    "yext/mainPhone": "+18884442988",
+    "yext/name": "Yext",
+    "yext/timezone": "America/New_York",
+    "yext/websiteUrl": {
+      "preferDisplayUrl": false,
+      "url": "https://locations.yext.com/us/ny/new-york/1-madison-ave.html"
+    }
+  },
+  "entityType": "yext/location",
+  "labels": []
+}

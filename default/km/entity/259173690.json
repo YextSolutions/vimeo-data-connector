@@ -1,0 +1,22 @@
+{
+  "$id": "259173690",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_description": "Express is Yext\u0027s LGBTQ employee resource group.  Our mission is to put Yext on the map as a company that reflects the diversity of our LGBTQ employees and customers; ensuring everyone can contribute to the fullest extent of their abilities to build a strong company.",
+    "c_duration": "2:15",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2018-03-08",
+    "c_videoURL": "https://vimeo.com/259173690",
+    "c_vimeo": "player.vimeo.com/video/259173690",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1920",
+    "yext/name": "Life at Yext | Express: LGBTQ Diversity and Inclusion"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

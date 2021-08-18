@@ -1,0 +1,22 @@
+{
+  "$id": "553366193",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_description": "\"Search\" and \"Query\" are not synonyms. In fact, the journey from \"Search\" to \"Query\" is a continuum of discovery where the questions of consumers are a process of refinement and a journey built on trust. Consumers struggle with too much information to process. They need a way to quickly explore what they are looking for and then, equally as easily, exploit that information to take action. Brands need to rethink their persona-based marketing in a world where every question asked is their most valuable asset in designing a multi-dimensional customer experience. Learn how to build real customer trust by re-thinking your global search strategy and explore how NLP and AI approaches can answer your customer questions from \"search\" to \"query\".",
+    "c_duration": "27:13",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2021-05-21",
+    "c_videoURL": "https://vimeo.com/553366193",
+    "c_vimeo": "player.vimeo.com/video/553366193",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1920",
+    "yext/name": "Building Trust From Search To Query - OMR Digital Masterclass 2021 - Christian Ward"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

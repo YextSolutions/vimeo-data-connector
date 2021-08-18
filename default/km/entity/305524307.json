@@ -1,0 +1,21 @@
+{
+  "$id": "305524307",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_duration": "1:16",
+    "c_height": "720",
+    "c_likes": "0",
+    "c_releaseDate": "2018-12-10",
+    "c_videoURL": "https://vimeo.com/305524307",
+    "c_vimeo": "player.vimeo.com/video/305524307",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1280",
+    "yext/name": "Enable Your Digital Agents with Yext for Insurance - French"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

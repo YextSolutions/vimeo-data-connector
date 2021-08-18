@@ -1,0 +1,21 @@
+{
+  "$id": "195031948",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_duration": "0:40",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2016-12-09",
+    "c_videoURL": "https://vimeo.com/195031948",
+    "c_vimeo": "player.vimeo.com/video/195031948",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1920",
+    "yext/name": "Google My Business V3.2 API Update"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

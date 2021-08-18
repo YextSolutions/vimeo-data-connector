@@ -1,0 +1,22 @@
+{
+  "$id": "420681487",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "unrated",
+    "c_creator": "Yext",
+    "c_description": "Webinar",
+    "c_duration": "65:40",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2020-05-20",
+    "c_videoURL": "https://vimeo.com/420681487",
+    "c_vimeo": "player.vimeo.com/video/420681487",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1920",
+    "yext/name": "Wenn Kunden auf Ihrer Website Fragen stellen: Yext Answers"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

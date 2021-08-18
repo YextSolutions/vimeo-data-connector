@@ -1,0 +1,22 @@
+{
+  "$id": "286078303",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "unrated",
+    "c_creator": "Yext",
+    "c_description": "The way consumers find insurance agents has changed significantly. The customer journey is no longer linear, and customers are looking for deep attributes about agents in search, on maps, and through voice assistants, chatbots, and more. These changes present a massive opportunity for forward-thinking brands to capture local market share and retain existing clients. Help your agents take control of their digital presence with Yext for Insurance.",
+    "c_duration": "1:16",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2018-08-21",
+    "c_videoURL": "https://vimeo.com/286078303",
+    "c_vimeo": "player.vimeo.com/video/286078303",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1920",
+    "yext/name": "Enable Your Digital Agents with Yext for Insurance"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

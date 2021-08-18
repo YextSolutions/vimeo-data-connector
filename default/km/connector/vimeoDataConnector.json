@@ -7,9 +7,9 @@
     "sourceConfig": {
       "apiPullConfig": {
         "requestType": "GET",
-        "url": "https://api.vimeo.com/users/user${{userID}}/videos",
+        "url": "https://api.vimeo.com/users/user23169904/videos",
         "authentication": {
-          "bearerToken": "$95f75c6f4b6129df3b8d435e236f55d4"
+          "bearerToken": "${{km/connector.vimeoDataConnector.api_bearer_token}}"
         },
         "paginationControl": {
           "cursorPagination": {

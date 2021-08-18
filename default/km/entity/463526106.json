@@ -1,0 +1,22 @@
+{
+  "$id": "463526106",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_description": "Technology has changed how consumers seek health information, consume content, and travel to and from appointments. As non-healthcare organizations like CVS and Google continue to infiltrate the healthcare space, patient acquisition challenges loom and will continue to pressure health systems and revenue.\n\nLearn how you can adopt strategies from a leading health system and leading technology partners across the patients digital journey and how technologies to maximize patient acquisition and delivery and improve patient experience.\n\n3-5 Learning Objectives:\n\n- Learn how patients and consumers have evolved their quest to find care by understanding the digital journey a consumer or patient takes (and how to maximize each channel)\n\n- Understand strategies to capture questions patients are asking about their healthcare and how to ensure questions are answered on all channels\n\n- Learn strategies to ensure consumer and patients can effectively make it to appointments and how patient show rates can impact reimbursement",
+    "c_duration": "47:43",
+    "c_height": "720",
+    "c_likes": "0",
+    "c_releaseDate": "2020-09-30",
+    "c_videoURL": "https://vimeo.com/463526106",
+    "c_vimeo": "player.vimeo.com/video/463526106",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1280",
+    "yext/name": "Lessons on Technology Touchpoints that Drive Patient Acquisition"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

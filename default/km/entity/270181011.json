@@ -1,0 +1,22 @@
+{
+  "$id": "270181011",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_description": "Yext ist die führende Plattform für Brand Verified Answers. Yexts Mission ist es, Unternehmen die Kontrolle über ihr Markenerlebnis im digitalen Ökosystem zu geben – darunter Karten, Apps, Suchmaschinen, Sprachassistenten und andere intelligente Dienste. Heutzutage nutzen Tausende von Unternehmen weltweit die Yext Knowledge Engine ™️, um so die Interaktion mit ihrer Marke zu fördern, Laufkundschaft zu generieren und den Umsatz zu steigern.\n\nVereinbaren Sie ein Demo:\nyext.de/produkte/demo/\n\nWir beraten Sie auch gerne persönlich:\nTel: +49-303-119-8686 \nE-Mail: kontakt@yext.com",
+    "c_duration": "1:47",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2018-05-16",
+    "c_videoURL": "https://vimeo.com/270181011",
+    "c_vimeo": "player.vimeo.com/video/270181011",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1920",
+    "yext/name": "Perfect Answers Everywhere. (German)"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

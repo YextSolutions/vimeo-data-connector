@@ -1,0 +1,22 @@
+{
+  "$id": "271160253",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_description": "Yext ist die führende Plattform für Brand Verified Answers. Gemeinsam geben wir Unternehmen die Kontrolle über ihre Digital Knowledge im gesamten digitalen Ökosystem aus Karten, Apps, Suchmaschinen, Sprachassistenten und weiteren intelligenten Diensten. In diesem Video stellt sich das Yext Team in Berlin vor. \n\nWir bei Yext streben stets nach Verbesserung und Innovation – sowohl bei unseren Produkten als auch bei unseren talentierten Mitarbeitern. Wir würden uns über Ihre Bewerbung sehr freuen. Eine Übersicht aller offenen Stellen finden Sie hier:\n\nhttp://www.yext.de/stellenangebote/",
+    "c_duration": "2:57",
+    "c_height": "1440",
+    "c_likes": "0",
+    "c_releaseDate": "2018-05-21",
+    "c_videoURL": "https://vimeo.com/271160253",
+    "c_vimeo": "player.vimeo.com/video/271160253",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "2560",
+    "yext/name": "Wir sind Yext Berlin!"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}

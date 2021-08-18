@@ -1,0 +1,22 @@
+{
+  "$id": "372414927",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_comments": "0",
+    "c_contentRating": "safe",
+    "c_creator": "Yext",
+    "c_description": "Search capabilities play a critical role in driving customer action — the all-important click. Consumers have access to more information in more formats than ever before, and surfacing what they want when they want it is crucial to acquiring and retaining their business. Structured search powers fast, intuitive consumer experiences and drives clicks across vast, constantly expanding data sets. Hear from the search experts who are creating the technology that changes the way we interact with the world around us.",
+    "c_duration": "30:29",
+    "c_height": "1080",
+    "c_likes": "0",
+    "c_releaseDate": "2019-11-11",
+    "c_videoURL": "https://vimeo.com/372414927",
+    "c_vimeo": "player.vimeo.com/video/372414927",
+    "c_vimeoUserPage": "https://vimeo.com/yextvideos",
+    "c_width": "1920",
+    "yext/name": "Structuring Chaos: The Next Generation of Search"
+  },
+  "entityType": "ce_Video",
+  "labels": []
+}
