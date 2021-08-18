@@ -9,7 +9,7 @@
         "requestType": "GET",
         "url": "https://api.vimeo.com/users/user${{userID}}/videos",
         "authentication": {
-          "bearerToken": "95f75c6f4b6129df3b8d435e236f55d4"
+          "bearerToken": "$95f75c6f4b6129df3b8d435e236f55d4"
         },
         "paginationControl": {
           "cursorPagination": {
@@ -170,6 +170,17 @@
           }
         }
       }
+    },
+    {
+      "function": {
+        "inputHeaders": {
+          "headers": [
+            "Duration"
+          ]
+        },
+        "plugin": "duration",
+        "function": "secToMin"
+      }
     }
   ],
   "mappings": [
@@ -241,6 +252,16 @@
     {
       "field": "c_releaseDate",
       "header": "Release Date (final)",
+      "subfieldPath": []
+    },
+    {
+      "field": "c_description",
+      "header": "Description",
+      "subfieldPath": []
+    },
+    {
+      "field": "c_duration",
+      "header": "Duration",
       "subfieldPath": []
     }
   ],
