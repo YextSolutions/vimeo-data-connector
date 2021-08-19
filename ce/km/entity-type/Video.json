@@ -1,0 +1,86 @@
+{
+  "$id": "ce_Video",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
+  "description": "",
+  "displayName": "Video",
+  "enabled": true,
+  "field": [
+    {
+      "id": "yext/name",
+      "required": true
+    },
+    {
+      "id": "c_categories",
+      "required": false
+    },
+    {
+      "id": "c_comments",
+      "required": false
+    },
+    {
+      "id": "c_contentRating",
+      "required": false
+    },
+    {
+      "id": "c_creator",
+      "required": false
+    },
+    {
+      "id": "c_description",
+      "required": false
+    },
+    {
+      "id": "c_duration",
+      "required": false
+    },
+    {
+      "id": "c_height",
+      "required": false
+    },
+    {
+      "id": "c_likes",
+      "required": false
+    },
+    {
+      "id": "c_releaseDate",
+      "required": false
+    },
+    {
+      "id": "c_tags",
+      "required": false
+    },
+    {
+      "id": "c_videoURL",
+      "required": false
+    },
+    {
+      "id": "c_views",
+      "required": false
+    },
+    {
+      "id": "c_vimeo",
+      "required": false
+    },
+    {
+      "id": "c_vimeoUserPage",
+      "required": false
+    },
+    {
+      "id": "c_width",
+      "required": false
+    },
+    {
+      "id": "yext/folder",
+      "required": false
+    },
+    {
+      "id": "yext/labels",
+      "required": false
+    },
+    {
+      "id": "yext/entityId",
+      "required": true
+    }
+  ],
+  "pluralDisplayName": "Videos"
+}

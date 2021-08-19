@@ -1,0 +1,11 @@
+{
+  "$id": "c_height",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Height",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "decimalType": {}
+  },
+  "typeId": "yext/decimal"
+}
