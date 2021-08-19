@@ -170,6 +170,17 @@
           }
         }
       }
+    },
+    {
+      "function": {
+        "inputHeaders": {
+          "headers": [
+            "Duration"
+          ]
+        },
+        "plugin": "duration",
+        "function": "secToMin"
+      }
     }
   ],
   "mappings": [
@@ -241,6 +252,16 @@
     {
       "field": "c_releaseDate",
       "header": "Release Date (final)",
+      "subfieldPath": []
+    },
+    {
+      "field": "c_description",
+      "header": "Description",
+      "subfieldPath": []
+    },
+    {
+      "field": "c_duration",
+      "header": "Duration",
       "subfieldPath": []
     }
   ],

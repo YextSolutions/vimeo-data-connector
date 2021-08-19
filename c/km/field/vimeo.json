@@ -1,7 +1,7 @@
 {
   "$id": "c_vimeo",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "displayName": "Vimeo",
+  "displayName": "Vimeo Embed URL",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
   "type": {
