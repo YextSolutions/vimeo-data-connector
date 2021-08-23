@@ -1,5 +1,5 @@
 {
-  "$id": "c_width",
+  "$id": "vimeo_width",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Width",
   "group": "NONE",
