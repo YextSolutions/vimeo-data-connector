@@ -1,8 +1,8 @@
 {
-  "$id": "vimeoDataConnector",
+  "$id": "vimeo_dataConnector",
   "$schema": "https://schema.yext.com/config/km/connector/v1",
   "displayName": "Vimeo Data Connector",
-  "entityType": "ce_Video",
+  "entityType": "vimeo_video",
   "source": {
     "sourceConfig": {
       "apiPullConfig": {
@@ -185,27 +185,27 @@
   ],
   "mappings": [
     {
-      "field": "c_vimeoUserPage",
+      "field": "vimeo_vimeoUserPage",
       "header": "Vimeo User Page",
       "subfieldPath": []
     },
     {
-      "field": "c_categories",
+      "field": "vimeo_categories",
       "header": "Categories",
       "subfieldPath": []
     },
     {
-      "field": "c_comments",
+      "field": "vimeo_comments",
       "header": "Comments",
       "subfieldPath": []
     },
     {
-      "field": "c_videoURL",
+      "field": "vimeo_videoURL",
       "header": "Video URL",
       "subfieldPath": []
     },
     {
-      "field": "c_creator",
+      "field": "vimeo_creator",
       "header": "Creator",
       "subfieldPath": []
     },
@@ -215,7 +215,7 @@
       "subfieldPath": []
     },
     {
-      "field": "c_vimeo",
+      "field": "vimeo_embed",
       "header": "Embed Link (final)",
       "subfieldPath": []
     },
@@ -225,42 +225,42 @@
       "subfieldPath": []
     },
     {
-      "field": "c_contentRating",
+      "field": "vimeo_contentRating",
       "header": "Content Rating",
       "subfieldPath": []
     },
     {
-      "field": "c_height",
+      "field": "vimeo_height",
       "header": "Height",
       "subfieldPath": []
     },
     {
-      "field": "c_likes",
+      "field": "vimeo_likes",
       "header": "Likes",
       "subfieldPath": []
     },
     {
-      "field": "c_width",
+      "field": "vimeo_width",
       "header": "Width",
       "subfieldPath": []
     },
     {
-      "field": "c_tags",
+      "field": "vimeo_tags",
       "header": "Tags",
       "subfieldPath": []
     },
     {
-      "field": "c_releaseDate",
+      "field": "vimeo_releaseDate",
       "header": "Release Date (final)",
       "subfieldPath": []
     },
     {
-      "field": "c_description",
+      "field": "vimeo_description",
       "header": "Description",
       "subfieldPath": []
     },
     {
-      "field": "c_duration",
+      "field": "vimeo_duration",
       "header": "Duration",
       "subfieldPath": []
     }
