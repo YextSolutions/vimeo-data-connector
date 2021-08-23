@@ -1,4 +1,4 @@
-export function secToMin(vimeo_duration: string) {
+export function secToMin(duration: string) {
 
     var sec = Number(duration) % 60
 
