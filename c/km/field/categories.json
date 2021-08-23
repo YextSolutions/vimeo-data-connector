@@ -1,5 +1,5 @@
 {
-  "$id": "c_categories",
+  "$id": "c_vimeo_categories",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Categories",
   "group": "NONE",
