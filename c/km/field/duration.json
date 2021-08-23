@@ -1,5 +1,5 @@
 {
-  "$id": "c_duration",
+  "$id": "vimeo_duration",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Duration",
   "group": "NONE",
