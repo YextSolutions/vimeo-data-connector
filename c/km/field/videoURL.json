@@ -1,5 +1,5 @@
 {
-  "$id": "c_videoURL",
+  "$id": "vimeo_videoURL",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Video URL",
   "group": "NONE",
