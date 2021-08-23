@@ -1,5 +1,5 @@
 {
-  "$id": "c_vimeo_comments",
+  "$id": "vimeo_comments",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Comments",
   "group": "NONE",
