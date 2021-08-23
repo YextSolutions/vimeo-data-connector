@@ -1,7 +1,7 @@
 {
   "$id": "vimeo_video",
   "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
-  "entityType": "vimeo_Video",
+  "entityType": "vimeo_video",
   "displayName": "Video",
   "presentationEntries": [
     {
