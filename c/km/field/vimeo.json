@@ -1,5 +1,5 @@
 {
-  "$id": "vimeo_vimeo",
+  "$id": "vimeo_embed",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Vimeo Embed URL",
   "group": "NONE",
