@@ -1,5 +1,5 @@
 {
-  "$id": "ce_Video",
+  "$id": "vimeo_video",
   "$schema": "https://schema.yext.com/config/km/entity-type/v1",
   "description": "",
   "displayName": "Video",
@@ -10,63 +10,59 @@
       "required": true
     },
     {
-      "id": "c_categories",
+      "id": "vimeo_categories",
       "required": false
     },
     {
-      "id": "c_comments",
+      "id": "vimeo_comments",
       "required": false
     },
     {
-      "id": "c_contentRating",
+      "id": "vimeo_contentRating",
       "required": false
     },
     {
-      "id": "c_creator",
+      "id": "vimeo_creator",
       "required": false
     },
     {
-      "id": "c_description",
+      "id": "vimeo_description",
       "required": false
     },
     {
-      "id": "c_duration",
+      "id": "vimeo_duration",
       "required": false
     },
     {
-      "id": "c_height",
+      "id": "vimeo_height",
       "required": false
     },
     {
-      "id": "c_likes",
+      "id": "vimeo_likes",
       "required": false
     },
     {
-      "id": "c_releaseDate",
+      "id": "vimeo_releaseDate",
       "required": false
     },
     {
-      "id": "c_tags",
+      "id": "vimeo_tags",
       "required": false
     },
     {
-      "id": "c_videoURL",
+      "id": "vimeo_videoURL",
       "required": false
     },
     {
-      "id": "c_views",
+      "id": "vimeo_vimeo",
       "required": false
     },
     {
-      "id": "c_vimeo",
+      "id": "vimeo_vimeoUserPage",
       "required": false
     },
     {
-      "id": "c_vimeoUserPage",
-      "required": false
-    },
-    {
-      "id": "c_width",
+      "id": "vimeo_width",
       "required": false
     },
     {
