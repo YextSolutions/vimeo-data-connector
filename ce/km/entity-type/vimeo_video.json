@@ -54,7 +54,7 @@
       "required": false
     },
     {
-      "id": "vimeo_vimeo",
+      "id": "vimeo_embed",
       "required": false
     },
     {
