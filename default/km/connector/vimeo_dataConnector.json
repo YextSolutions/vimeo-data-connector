@@ -178,7 +178,7 @@
             "Duration"
           ]
         },
-        "plugin": "duration",
+        "plugin": "vimeo_duration",
         "function": "secToMin"
       }
     }
