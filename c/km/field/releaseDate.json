@@ -1,5 +1,5 @@
 {
-  "$id": "c_releaseDate",
+  "$id": "vimeo_releaseDate",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Release Date",
   "group": "NONE",
