@@ -1,5 +1,5 @@
 {
-  "$id": "c_creator",
+  "$id": "vimeo_creator",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "displayName": "Creator",
   "group": "NONE",
