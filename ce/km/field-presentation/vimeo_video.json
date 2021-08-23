@@ -1,7 +1,7 @@
 {
-  "$id": "ce_video",
+  "$id": "vimeo_video",
   "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
-  "entityType": "ce_Video",
+  "entityType": "vimeo_Video",
   "displayName": "Video",
   "presentationEntries": [
     {
@@ -21,34 +21,34 @@
           "visibleOnAdd": true
         },
         {
-          "id": "c_videoURL"
+          "id": "vimeo_videoURL"
         },
         {
-          "id": "c_vimeo"
+          "id": "vimeo_embed"
         },
         {
-          "id": "c_description"
+          "id": "vimeo_description"
         },
         {
-          "id": "c_duration"
+          "id": "vimeo_duration"
         },
         {
-          "id": "c_releaseDate"
+          "id": "vimeo_releaseDate"
         },
         {
-          "id": "c_width"
+          "id": "vimeo_width"
         },
         {
-          "id": "c_height"
+          "id": "vimeo_height"
         },
         {
-          "id": "c_contentRating"
+          "id": "vimeo_contentRating"
         },
         {
-          "id": "c_tags"
+          "id": "vimeo_tags"
         },
         {
-          "id": "c_categories"
+          "id": "vimeo_categories"
         }
       ]
     },
@@ -57,13 +57,10 @@
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "c_views"
+          "id": "vimeo_comments"
         },
         {
-          "id": "c_comments"
-        },
-        {
-          "id": "c_likes"
+          "id": "vimeo_likes"
         }
       ]
     },
@@ -72,10 +69,10 @@
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "c_creator"
+          "id": "vimeo_creator"
         },
         {
-          "id": "c_vimeoUserPage"
+          "id": "vimeo_vimeoUserPage"
         }
       ]
     },
