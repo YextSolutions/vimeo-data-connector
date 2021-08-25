@@ -1,0 +1,96 @@
+{
+  "$id": "vimeo_video",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "vimeo_video",
+  "displayName": "Video",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "yext/entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "yext/name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "vimeo_videoURL"
+        },
+        {
+          "id": "vimeo_embed"
+        },
+        {
+          "id": "vimeo_description"
+        },
+        {
+          "id": "vimeo_duration"
+        },
+        {
+          "id": "vimeo_releaseDate"
+        },
+        {
+          "id": "vimeo_width"
+        },
+        {
+          "id": "vimeo_height"
+        },
+        {
+          "id": "vimeo_contentRating"
+        },
+        {
+          "id": "vimeo_tags"
+        },
+        {
+          "id": "vimeo_categories"
+        }
+      ]
+    },
+    {
+      "displayName": "Stats",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "vimeo_comments"
+        },
+        {
+          "id": "vimeo_likes"
+        }
+      ]
+    },
+    {
+      "displayName": "User Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "vimeo_creator"
+        },
+        {
+          "id": "vimeo_vimeoUserPage"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "yext/folder"
+        },
+        {
+          "id": "yext/labels"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "$id": "vimeo_video",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
+  "description": "",
+  "displayName": "Video",
+  "enabled": true,
+  "field": [
+    {
+      "id": "yext/name",
+      "required": true
+    },
+    {
+      "id": "vimeo_categories",
+      "required": false
+    },
+    {
+      "id": "vimeo_comments",
+      "required": false
+    },
+    {
+      "id": "vimeo_contentRating",
+      "required": false
+    },
+    {
+      "id": "vimeo_creator",
+      "required": false
+    },
+    {
+      "id": "vimeo_description",
+      "required": false
+    },
+    {
+      "id": "vimeo_duration",
+      "required": false
+    },
+    {
+      "id": "vimeo_height",
+      "required": false
+    },
+    {
+      "id": "vimeo_likes",
+      "required": false
+    },
+    {
+      "id": "vimeo_releaseDate",
+      "required": false
+    },
+    {
+      "id": "vimeo_tags",
+      "required": false
+    },
+    {
+      "id": "vimeo_videoURL",
+      "required": false
+    },
+    {
+      "id": "vimeo_embed",
+      "required": false
+    },
+    {
+      "id": "vimeo_vimeoUserPage",
+      "required": false
+    },
+    {
+      "id": "vimeo_width",
+      "required": false
+    },
+    {
+      "id": "yext/folder",
+      "required": false
+    },
+    {
+      "id": "yext/labels",
+      "required": false
+    },
+    {
+      "id": "yext/entityId",
+      "required": true
+    }
+  ],
+  "pluralDisplayName": "Videos"
+}
