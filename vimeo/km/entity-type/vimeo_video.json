@@ -6,7 +6,7 @@
   "enabled": true,
   "field": [
     {
-      "id": "yext/name",
+      "id": "name",
       "required": true
     },
     {
@@ -66,15 +66,15 @@
       "required": false
     },
     {
-      "id": "yext/folder",
+      "id": "folder",
       "required": false
     },
     {
-      "id": "yext/labels",
+      "id": "labels",
       "required": false
     },
     {
-      "id": "yext/entityId",
+      "id": "entityId",
       "required": true
     }
   ],

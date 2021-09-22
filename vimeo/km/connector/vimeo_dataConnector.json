@@ -210,7 +210,7 @@
       "subfieldPath": []
     },
     {
-      "field": "yext/name",
+      "field": "name",
       "header": "Name",
       "subfieldPath": []
     },
@@ -220,7 +220,7 @@
       "subfieldPath": []
     },
     {
-      "field": "yext/entityId",
+      "field": "entityId",
       "header": "Entity ID",
       "subfieldPath": []
     },
