@@ -1,6 +1,6 @@
 {
   "$id": "vimeo_dataConnector",
-  "$schema": "https://schema.yext.com/config/km/connector/v1",
+  "$schema": "https://schema.yext.com/config/km/connector/v2",
   "displayName": "Vimeo Data Connector",
   "entityType": "vimeo_video",
   "source": {
