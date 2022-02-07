@@ -1,0 +1,22 @@
+{
+  "$id": "vimeo_video.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Video-default",
+  "entityType": "vimeo_video",
+  "fields": [
+    "vimeo_categories",
+    "vimeo_comments",
+    "vimeo_contentRating",
+    "vimeo_creator",
+    "vimeo_description",
+    "vimeo_duration",
+    "vimeo_height",
+    "vimeo_likes",
+    "vimeo_releaseDate",
+    "vimeo_tags",
+    "vimeo_videoURL",
+    "vimeo_embed",
+    "vimeo_vimeoUserPage",
+    "vimeo_width"
+  ]
+}
