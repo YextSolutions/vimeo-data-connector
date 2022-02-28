@@ -151,7 +151,7 @@
         "extractFrom": "LAST_INSTANCE_MATCHING_TEXT",
         "valueToFind": {
           "plainText": {
-            "value": """,
+            "value": "\"",
             "ignoreCase": false
           }
         }
