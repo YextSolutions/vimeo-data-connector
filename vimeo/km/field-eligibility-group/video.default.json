@@ -1,5 +1,5 @@
 {
-  "$id": "vimeo_video.default",
+  "$id": "vimeo_video",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
   "name": "Video-default",
   "entityType": "vimeo_video",
