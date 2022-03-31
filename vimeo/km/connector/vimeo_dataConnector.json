@@ -5,28 +5,13 @@
   "entityType": "vimeo_video",
   "source": {
     "sourceConfig": {
-      "apiPullConfig": {
-        "requestType": "GET",
-        "url": "https://api.vimeo.com/users/${{userID}}/videos",
-        "authentication": {
-          "bearerToken": "95f75c6f4b6129df3b8d435e236f55d4"
-        },
-        "paginationControl": {
-          "cursorPagination": {
-            "cursor": "paging.next",
-            "cursorType": "RELATIVE_URL",
-            "detectCursorInHeader": false
-          }
-        },
-        "headers": {},
-        "queryParams": {},
-        "dataFormat": "JSON"
+      "nativeSourceConfig": {
+        "source": "vimeo",
+        "operation": "fetchVideos",
+        "inputs": {
+          "userID": "${{userID}}"
+        }
       }
-    },
-    "baseSelector": {
-      "type": "JSON",
-      "header": "Entity Container",
-      "path": "data"
     },
     "selectors": [
       {
