@@ -38,9 +38,9 @@ This app also adds a plugin, vimeo\_duration.
 
 
 # How to Install
-If you are an existing Yext customer, you can install the Drupal Event Connector here <https://www.yext.com/s/me/apps/57369>
+If you are an existing Yext customer, you can install the Vimeo Connector here <https://www.yext.com/s/me/apps/57369>
 
-If you are currently using a Yext sandbox account, you can install the Drupal Event Connector here <https://sandbox.yext.com/s/me/apps/134560>.
+If you are currently using a Yext sandbox account, you can install the Vimeo Connector here <https://sandbox.yext.com/s/me/apps/134560>.
 
 If you are not an existing customer, but interested in learning more, try out a free trial here for a production account, or sign up for Hitchhikers and get started with a sandbox account, here <https://hitchhikers.yext.com/>. 
 
