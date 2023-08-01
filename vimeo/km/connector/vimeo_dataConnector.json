@@ -1,262 +1,268 @@
 {
-  "$id": "vimeo_dataConnector",
-  "$schema": "https://schema.yext.com/config/km/connector/v2",
-  "displayName": "Vimeo Data Connector",
-  "entityType": "vimeo_video",
-  "source": {
-    "sourceConfig": {
-      "nativeSourceConfig": {
-        "source": "vimeo",
-        "operation": "fetchVideos",
-        "inputs": {
-          "userID": "${{userID}}"
-        }
-      }
-    },
-    "selectors": [
-      {
-        "type": "JSON",
-        "header": "Entity ID",
-        "path": "uri"
-      },
-      {
-        "type": "JSON",
-        "header": "Name",
-        "path": "name"
-      },
-      {
-        "type": "JSON",
-        "header": "Creator",
-        "path": "user.name"
-      },
-      {
-        "type": "JSON",
-        "header": "Vimeo User Page",
-        "path": "user.link"
-      },
-      {
-        "type": "JSON",
-        "header": "Video URL",
-        "path": "link"
-      },
-      {
-        "type": "JSON",
-        "header": "Description",
-        "path": "description"
-      },
-      {
-        "type": "JSON",
-        "header": "Embed Link",
-        "path": "embed.html"
-      },
-      {
-        "type": "JSON",
-        "header": "Duration",
-        "path": "duration"
-      },
-      {
-        "type": "JSON",
-        "header": "Width",
-        "path": "width"
-      },
-      {
-        "type": "JSON",
-        "header": "Height",
-        "path": "height"
-      },
-      {
-        "type": "JSON",
-        "header": "Release Date",
-        "path": "release_time"
-      },
-      {
-        "type": "JSON",
-        "header": "Content Rating",
-        "path": "content_rating"
-      },
-      {
-        "type": "JSON",
-        "header": "Tags",
-        "path": "tags"
-      },
-      {
-        "type": "JSON",
-        "header": "Categories",
-        "path": "categories"
-      },
-      {
-        "type": "JSON",
-        "header": "Views",
-        "path": "stats.plays"
-      },
-      {
-        "type": "JSON",
-        "header": "Comments",
-        "path": "metadata.connections.comments.total"
-      },
-      {
-        "type": "JSON",
-        "header": "Likes",
-        "path": "metadata.connections.likes.total"
-      }
-    ]
-  },
-  "transforms": [
-    {
-      "removeUnwantedChars": {
-        "inputHeaders": {
-          "headers": [
-            "Entity ID"
-          ]
+    "$id": "vimeo_dataConnector",
+    "$schema": "https://schema.yext.com/config/km/connector/v4",
+    "displayName": "Vimeo Data Connector",
+    "entityTypes": [
+        "vimeo_video"
+    ],
+    "source": {
+        "sourceConfig": {
+            "nativeSourceConfig": {
+                "source": "vimeo",
+                "operation": "fetchVideos",
+                "inputs": {
+                    "userID": "${{userID}}"
+                }
+            }
         },
-        "cleanOptions": [
-          "REMOVE_NON_NUMERICS"
+        "selectors": [
+            {
+                "type": "JSON",
+                "header": "Entity ID",
+                "path": "uri"
+            },
+            {
+                "type": "JSON",
+                "header": "Name",
+                "path": "name"
+            },
+            {
+                "type": "JSON",
+                "header": "Creator",
+                "path": "user.name"
+            },
+            {
+                "type": "JSON",
+                "header": "Vimeo User Page",
+                "path": "user.link"
+            },
+            {
+                "type": "JSON",
+                "header": "Video URL",
+                "path": "link"
+            },
+            {
+                "type": "JSON",
+                "header": "Description",
+                "path": "description"
+            },
+            {
+                "type": "JSON",
+                "header": "Embed Link",
+                "path": "embed.html"
+            },
+            {
+                "type": "JSON",
+                "header": "Duration",
+                "path": "duration"
+            },
+            {
+                "type": "JSON",
+                "header": "Width",
+                "path": "width"
+            },
+            {
+                "type": "JSON",
+                "header": "Height",
+                "path": "height"
+            },
+            {
+                "type": "JSON",
+                "header": "Release Date",
+                "path": "release_time"
+            },
+            {
+                "type": "JSON",
+                "header": "Content Rating",
+                "path": "content_rating"
+            },
+            {
+                "type": "JSON",
+                "header": "Tags",
+                "path": "tags"
+            },
+            {
+                "type": "JSON",
+                "header": "Categories",
+                "path": "categories"
+            },
+            {
+                "type": "JSON",
+                "header": "Views",
+                "path": "stats.plays"
+            },
+            {
+                "type": "JSON",
+                "header": "Comments",
+                "path": "metadata.connections.comments.total"
+            },
+            {
+                "type": "JSON",
+                "header": "Likes",
+                "path": "metadata.connections.likes.total"
+            }
         ]
-      }
     },
-    {
-      "extractText": {
-        "inputHeader": "Embed Link",
-        "newColumnHeader": "Embed Link (half-transformed)",
-        "extractOperation": "ALL_TEXT_BEFORE",
-        "extractFrom": "FIRST_INSTANCE_MATCHING_TEXT",
-        "valueToFind": {
-          "plainText": {
-            "value": "?",
-            "ignoreCase": false
-          }
-        }
-      }
-    },
-    {
-      "extractText": {
-        "inputHeader": "Embed Link (half-transformed)",
-        "newColumnHeader": "Embed Link (final)",
-        "extractOperation": "ALL_TEXT_AFTER",
-        "extractFrom": "LAST_INSTANCE_MATCHING_TEXT",
-        "valueToFind": {
-          "plainText": {
-            "value": "\"",
-            "ignoreCase": false
-          }
-        }
-      }
-    },
-    {
-      "extractText": {
-        "inputHeader": "Release Date",
-        "newColumnHeader": "Release Date (final)",
-        "extractOperation": "ALL_TEXT_BEFORE",
-        "extractFrom": "FIRST_INSTANCE_MATCHING_TEXT",
-        "valueToFind": {
-          "plainText": {
-            "value": "T",
-            "ignoreCase": false
-          }
-        }
-      }
-    },
-    {
-      "function": {
-        "inputHeaders": {
-          "headers": [
-            "Duration"
-          ]
+    "transforms": [
+        {
+            "removeUnwantedChars": {
+                "inputHeaders": {
+                    "headers": [
+                        "Entity ID"
+                    ]
+                },
+                "cleanOptions": [
+                    "REMOVE_NON_NUMERICS"
+                ]
+            }
         },
-        "plugin": "vimeo_duration",
-        "function": "secToMin"
-      }
+        {
+            "extractText": {
+                "inputHeader": "Embed Link",
+                "newColumnHeader": "Embed Link (half-transformed)",
+                "extractOperation": "ALL_TEXT_BEFORE",
+                "extractFrom": "FIRST_INSTANCE_MATCHING_TEXT",
+                "valueToFind": {
+                    "plainText": {
+                        "value": "?",
+                        "ignoreCase": false
+                    }
+                }
+            }
+        },
+        {
+            "extractText": {
+                "inputHeader": "Embed Link (half-transformed)",
+                "newColumnHeader": "Embed Link (final)",
+                "extractOperation": "ALL_TEXT_AFTER",
+                "extractFrom": "LAST_INSTANCE_MATCHING_TEXT",
+                "valueToFind": {
+                    "plainText": {
+                        "value": "\"",
+                        "ignoreCase": false
+                    }
+                }
+            }
+        },
+        {
+            "extractText": {
+                "inputHeader": "Release Date",
+                "newColumnHeader": "Release Date (final)",
+                "extractOperation": "ALL_TEXT_BEFORE",
+                "extractFrom": "FIRST_INSTANCE_MATCHING_TEXT",
+                "valueToFind": {
+                    "plainText": {
+                        "value": "T",
+                        "ignoreCase": false
+                    }
+                }
+            }
+        },
+        {
+            "function": {
+                "inputHeaders": {
+                    "headers": [
+                        "Duration"
+                    ]
+                },
+                "plugin": "vimeo_duration",
+                "function": "secToMin"
+            }
+        }
+    ],
+    "mappings": [
+        {
+            "field": "vimeo_vimeoUserPage",
+            "header": "Vimeo User Page",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_categories",
+            "header": "Categories",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_comments",
+            "header": "Comments",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_videoURL",
+            "header": "Video URL",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_creator",
+            "header": "Creator",
+            "subfieldPath": []
+        },
+        {
+            "field": "name",
+            "header": "Name",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_embed",
+            "header": "Embed Link (final)",
+            "subfieldPath": []
+        },
+        {
+            "field": "entityId",
+            "header": "Entity ID",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_contentRating",
+            "header": "Content Rating",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_height",
+            "header": "Height",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_likes",
+            "header": "Likes",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_width",
+            "header": "Width",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_tags",
+            "header": "Tags",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_releaseDate",
+            "header": "Release Date (final)",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_description",
+            "header": "Description",
+            "subfieldPath": []
+        },
+        {
+            "field": "vimeo_duration",
+            "header": "Duration",
+            "subfieldPath": []
+        }
+    ],
+    "scheduleConfig": {
+        "customSchedule": {
+            "timeZone": "America/New_York",
+            "startDate": "2021-09-14",
+            "startTime": "00:00",
+            "frequencyType": "DAILY"
+        },
+        "runMode": "COMPREHENSIVE"
+    },
+    "comprehensiveModeConfig": {
+        "comprehensiveSet": "ENTITIES_CREATED_BY_THIS_CONNECTOR",
+        "actionOnMissingEntities": "DELETE"
     }
-  ],
-  "mappings": [
-    {
-      "field": "vimeo_vimeoUserPage",
-      "header": "Vimeo User Page",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_categories",
-      "header": "Categories",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_comments",
-      "header": "Comments",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_videoURL",
-      "header": "Video URL",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_creator",
-      "header": "Creator",
-      "subfieldPath": []
-    },
-    {
-      "field": "name",
-      "header": "Name",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_embed",
-      "header": "Embed Link (final)",
-      "subfieldPath": []
-    },
-    {
-      "field": "entityId",
-      "header": "Entity ID",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_contentRating",
-      "header": "Content Rating",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_height",
-      "header": "Height",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_likes",
-      "header": "Likes",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_width",
-      "header": "Width",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_tags",
-      "header": "Tags",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_releaseDate",
-      "header": "Release Date (final)",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_description",
-      "header": "Description",
-      "subfieldPath": []
-    },
-    {
-      "field": "vimeo_duration",
-      "header": "Duration",
-      "subfieldPath": []
-    }
-  ],
-  "scheduleConfig": {
-    "customSchedule": {
-      "timeZone": "America/New_York",
-      "startDate": "2021-09-14",
-      "startTime": "00:00",
-      "frequencyType": "DAILY"
-    },
-    "runMode": "COMPREHENSIVE"
-  }
 }

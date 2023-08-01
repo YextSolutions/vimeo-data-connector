@@ -1,96 +1,96 @@
 {
-  "$id": "vimeo_video",
-  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
-  "entityType": "vimeo_video",
-  "displayName": "Video",
-  "presentationEntries": [
-    {
-      "displayName": "Content",
-      "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Core Information",
-      "entryType": "SECTION",
-      "fields": [
+    "$id": "vimeo_video",
+    "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+    "entityType": "vimeo_video",
+    "displayName": "Video",
+    "presentationEntries": [
         {
-          "id": "entityId",
-          "visibleOnAdd": true
+            "displayName": "Content",
+            "entryType": "DIVIDER"
         },
         {
-          "id": "name",
-          "visibleOnAdd": true
+            "displayName": "Core Information",
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "entityId",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "name",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "vimeo_videoURL"
+                },
+                {
+                    "id": "vimeo_embed"
+                },
+                {
+                    "id": "vimeo_description"
+                },
+                {
+                    "id": "vimeo_duration"
+                },
+                {
+                    "id": "vimeo_releaseDate"
+                },
+                {
+                    "id": "vimeo_width"
+                },
+                {
+                    "id": "vimeo_height"
+                },
+                {
+                    "id": "vimeo_contentRating"
+                },
+                {
+                    "id": "vimeo_tags"
+                },
+                {
+                    "id": "vimeo_categories"
+                }
+            ]
         },
         {
-          "id": "vimeo_videoURL"
+            "displayName": "Stats",
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "vimeo_comments"
+                },
+                {
+                    "id": "vimeo_likes"
+                }
+            ]
         },
         {
-          "id": "vimeo_embed"
+            "displayName": "User Information",
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "vimeo_creator"
+                },
+                {
+                    "id": "vimeo_vimeoUserPage"
+                }
+            ]
         },
         {
-          "id": "vimeo_description"
+            "displayName": "Other",
+            "entryType": "DIVIDER"
         },
         {
-          "id": "vimeo_duration"
-        },
-        {
-          "id": "vimeo_releaseDate"
-        },
-        {
-          "id": "vimeo_width"
-        },
-        {
-          "id": "vimeo_height"
-        },
-        {
-          "id": "vimeo_contentRating"
-        },
-        {
-          "id": "vimeo_tags"
-        },
-        {
-          "id": "vimeo_categories"
+            "displayName": "Internal Use Only",
+            "entryType": "SECTION",
+            "fields": [
+                {
+                    "id": "folder"
+                },
+                {
+                    "id": "labels"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "displayName": "Stats",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "vimeo_comments"
-        },
-        {
-          "id": "vimeo_likes"
-        }
-      ]
-    },
-    {
-      "displayName": "User Information",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "vimeo_creator"
-        },
-        {
-          "id": "vimeo_vimeoUserPage"
-        }
-      ]
-    },
-    {
-      "displayName": "Other",
-      "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Internal Use Only",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "folder"
-        },
-        {
-          "id": "labels"
-        }
-      ]
-    }
-  ]
+    ]
 }
